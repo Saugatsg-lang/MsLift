@@ -1,0 +1,24 @@
+/* ✅ Swiper core styles (must come first) */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Custom global styles */
+html {
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+/* ✅ Scroll offset for fixed navbar */
+.scroll-offset {
+  scroll-margin-top: 7rem; /* Adjust according to your total header height (top bar + navbar) */
+}
+
+/* Optional: you can add global font or body styles here */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
