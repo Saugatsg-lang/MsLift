@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p $PORT"
-  },
-  "engines": {
-    "node": ">=18 <=20"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
     "lucide-react": "^0.542.0",
@@ -35,4 +33,4 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }
-}
+} 
