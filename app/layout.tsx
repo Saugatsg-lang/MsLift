@@ -7,7 +7,7 @@ import SocialCTA from "@/components/SocialCTA";
 import { Toaster } from "sonner"; // ✅ Import Toaster
 
 export const metadata = {
-  title: "BizStarter - Business Template",
+  title: "MSELEVATORS-Nepal",
   description: "Next.js + Tailwind CSS educational template",
 };
 
